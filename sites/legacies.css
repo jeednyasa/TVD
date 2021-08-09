@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+
+}
+.body
+{
+    background-image: url(https://i.ytimg.com/vi/z3lA1sK-sPI/maxresdefault.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.navbar{
+	position: relative;
+	height: 653px;
+	width: 27%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+   
+}
+
+.navbar ul{
+	float: left;
+	margin-left: 10px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: block;
+	line-height: 50px;
+}
+.navbar ul li a{
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding: 6px 90px;
+	text-decoration: none;
+	transition: .4s;
+}
+.navbar ul li a.active
+{
+    background: rgb(96, 90, 126);
+}
+.navbar ul li a:hover{
+	background: rgb(88, 0, 105);
+	border-radius: 2px;
+}
+.centered {
+    position: absolute;
+    bottom: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 170px;
+    margin-bottom: -5px;
+    color: aliceblue;
+  }
+  .top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  margin-left: 630px;
+  font-size: 25px;
+  color: aliceblue;
+}
+.img1
+{
+    margin-right: 50px;
+    float: right;
+}
+.tit1
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.txt1
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+.img2
+{
+    margin-left: 100px;
+    float: left;
+    margin-top: 80px;
+}
+.tit2
+{
+    text-align: center;
+    
+    margin-right: 250px;
+    color: aliceblue;
+    font-size: 30px;
+    margin-top: 90px;
+}
+.txt2
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 150px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+.img3
+{
+    margin-right: 50px;
+    float: right;
+}
+.tit3
+{
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 30px;
+}
+.txt3
+{
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 100px;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
